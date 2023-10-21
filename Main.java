@@ -39,7 +39,6 @@ public class Main {
 
         studentEC.removeChaining(133);
         studentLP.removeLinearProbing(133);
-        studentEC.printChaining();
-        studentLP.printLinearProbing();
+
     }
 }

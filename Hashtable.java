@@ -62,6 +62,7 @@ public class Hashtable {
         if (!test){
             System.out.println("O estudante não foi encontrado na tabela!");
         }
+        printLinearProbing();
     }
 
     public void printLinearProbing(){
@@ -126,6 +127,7 @@ public class Hashtable {
                 current = current.getNext();
             }
         }
+        printChaining();
     }
 
     public void printChaining() {
